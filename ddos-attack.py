@@ -21,7 +21,7 @@ os.system("clear")
 os.system("figlet DDos Attack")
 print
 print "Author   : Prathamesh"
-print "You Tube : https://www.youtube.com/c/Prathamesh18111999"
+print "YouTube : https://www.youtube.com/c/Prathamesh18111999"
 print "github   :https://github.com/PRATHAM18111999"
 print "Twitter : https://twitter.com/pratham18111999"
 print
